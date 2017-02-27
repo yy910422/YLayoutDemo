@@ -12,6 +12,8 @@
 		26CD2B571E6486E000B548DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26CD2B551E6486E000B548DF /* Main.storyboard */; };
 		26CD2B591E6486E000B548DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 26CD2B581E6486E000B548DF /* Assets.xcassets */; };
 		26CD2B5C1E6486E000B548DF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26CD2B5A1E6486E000B548DF /* LaunchScreen.storyboard */; };
+		26CD2B671E64878000B548DF /* UIView+ConstraintExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26CD2B651E64878000B548DF /* UIView+ConstraintExtensions.swift */; };
+		26CD2B691E6487B300B548DF /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26CD2B681E6487B300B548DF /* UIView+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		26CD2B581E6486E000B548DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		26CD2B5B1E6486E000B548DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		26CD2B5D1E6486E000B548DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26CD2B651E64878000B548DF /* UIView+ConstraintExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+ConstraintExtensions.swift"; sourceTree = "<group>"; };
+		26CD2B681E6487B300B548DF /* UIView+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,7 @@
 		26CD2B501E6486E000B548DF /* YLayoutDemo */ = {
 			isa = PBXGroup;
 			children = (
+				26CD2B631E64870200B548DF /* Layout */,
 				26CD2B511E6486E000B548DF /* AppDelegate.swift */,
 				26CD2B531E6486E000B548DF /* ViewController.swift */,
 				26CD2B551E6486E000B548DF /* Main.storyboard */,
@@ -62,6 +67,15 @@
 				26CD2B5D1E6486E000B548DF /* Info.plist */,
 			);
 			path = YLayoutDemo;
+			sourceTree = "<group>";
+		};
+		26CD2B631E64870200B548DF /* Layout */ = {
+			isa = PBXGroup;
+			children = (
+				26CD2B681E6487B300B548DF /* UIView+Extensions.swift */,
+				26CD2B651E64878000B548DF /* UIView+ConstraintExtensions.swift */,
+			);
+			path = Layout;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +152,8 @@
 			files = (
 				26CD2B541E6486E000B548DF /* ViewController.swift in Sources */,
 				26CD2B521E6486E000B548DF /* AppDelegate.swift in Sources */,
+				26CD2B691E6487B300B548DF /* UIView+Extensions.swift in Sources */,
+				26CD2B671E64878000B548DF /* UIView+ConstraintExtensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,6 +315,7 @@
 				26CD2B621E6486E000B548DF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
